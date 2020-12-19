@@ -3,6 +3,13 @@
 button{
     display: flex;
     flex-direction: row;
+    outline: none; 
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    transform: scale(1.05);
 }
 
 /* header */
@@ -81,7 +88,13 @@ button{
 .score-ratio-label{
     font-size: 16px;
     font-weight: 300;
-    color:#48b6a3;   
+    color:#48b6a3;
+    cursor: pointer;
+    transition-duration: 0.4s;   
+}
+
+.score-ratio-label:hover{
+    transform: scale(1.05);
 }
 
 /* interest */

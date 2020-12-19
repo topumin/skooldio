@@ -65,3 +65,13 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background:#4a4a4a;
+}
+
+::selection {
+  color: #fff;
+  background:#4a4a4a;
+}

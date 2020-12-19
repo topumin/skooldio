@@ -46,6 +46,12 @@
 .favorite-icon-img{
     width: 24px;
     height: 21px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.favorite-icon-img:hover{
+    transform: scale(1.1);
 }
 
 .faculty-label{
@@ -213,4 +219,10 @@
 .share-icon-img{
     width: 18px;
     height: 23px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.share-icon-img:hover{
+    transform: scale(1.1);
 }
