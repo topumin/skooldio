@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+    <title>Pok-Deng</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; flex: 1; text-align: center; width: 100vw; height: 100vh; color: red; font-size: 24px; font-family: 'Prompt', sans-serif;">
+        Please press f12 and type play() in console to start!
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        var type = ["clubs" , "diamonds", "hearts" , "spades"];
+        var number = ["1","2","3","4","5","6","7","8","9","10","j","q","k"];
+        var chips = 0;
+
+        function test(){
+            var bet = window.prompt("Please put your bet : ");
+            console.log(bet);
+            var you1 =  Math.floor(Math.random() * 4) ;
+            var you2 =  Math.floor(Math.random() * 13);
+            var you3 =  Math.floor(Math.random() * 4) ;
+            var you4 =  Math.floor(Math.random() * 13);
+
+            if((you2+1) > 9) {
+                you2 = 9
+            }
+            if((you4+1) > 9) {
+                you4 = 9
+            }
+        
+            var dealer1 =  Math.floor(Math.random() * 4) ;
+            var dealer2 =  Math.floor(Math.random() * 13);
+            var dealer3 =  Math.floor(Math.random() * 4) ;
+            var dealer4 =  Math.floor(Math.random() * 13);
+
+            if((dealer2+1) > 9) {
+                dealer2 = 9
+            }
+            if((dealer4+1) > 9) {
+                dealer4 = 9
+            }
+        
+            var youScore = ((you2+1)+(you4+1))%10;
+            var dealerScore = ((dealer2+1)+(dealer4+1))%10;
+        
+            console.log("You got :" +type[you1]+ "-" + number[you2] + "," +type[you3]+ "-" + number[you4] );
+            console.log("You got :" +type[dealer1]+ "-" + number[dealer2] + "," +type[dealer3]+ "-" + number[dealer4] );
+        
+            var dealerScore = ((dealer2+1)+(dealer4+1))%10;
+            if(youScore > dealerScore){
+                console.log("You won !!!, received " + bet + " chips");
+                chips += parseInt(bet);
+            }else{
+                console.log("Yoe lose ~_~");
+                chips -= parseInt(bet);
+            }
+            var play = window.prompt("Wanna play [Yes/No]");
+
+            console.log("You got total " + chips + " chips");
+        
+            return play;
+        } 
+        
+        async function play(){
+            do {
+                const a = await test();
+                var nn =  a.localeCompare("Yes");
+                if(chips<0){
+                    console.log("You are bankrupt");
+                    return;
+                }
+            }while  (  nn != -1 );
+        }
+    </script>
+</html>
