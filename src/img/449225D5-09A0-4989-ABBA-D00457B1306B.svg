@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>5E201BCE-2553-4893-9A6D-8AAEC958D17E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="18" y="17" width="442" height="493" rx="5"></rect>
+        <filter x="-1.6%" y="-1.0%" width="103.2%" height="102.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="7.82608696e-05 0.0663428571 17.9324348 0.0663428571 17.9324348 17.7428057 7.82608696e-05 17.7428057"></polygon>
+        <polygon id="path-5" points="0 17.9337086 17.9324348 17.9337086 17.9324348 0.257194286 0 0.257194286"></polygon>
+    </defs>
+    <g id="tcaster-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard---1366x768-(W960px---12-Col.grid)-Copy-50" transform="translate(-416.000000, -209.000000)">
+            <rect id="Rectangle-4" fill="#F3F3F3" opacity="0.2" x="-2" y="0" width="1368" height="775"></rect>
+            <g id="Rectangle-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-4" transform="translate(41.000000, 201.000000)">
+                <text id="รอบที่-4-:-Admission-Copy" font-family="Prompt-SemiBold, Prompt" font-size="16" font-weight="500" line-spacing="16" fill="#FF5A5A">
+                    <tspan x="0" y="26">รอบที่ 4 : Admission</tspan>
+                </text>
+                <g id="Group-2" transform="translate(283.000000, 0.000000)">
+                    <rect id="Rectangle-29-Copy-4" stroke="#FF5A5A" x="0.5" y="0.5" width="119" height="34" rx="17"></rect>
+                    <g id="Group-3-Copy-4" transform="translate(90.000000, 7.000000)">
+                        <g id="korean-copy-2">
+                            <g id="Page-1" transform="translate(2.000000, 1.000000)">
+                                <g id="Group-3" transform="translate(0.000000, 0.190851)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <g id="Clip-2"></g>
+                                    <path d="M9.41016522,16.8554057 L9.41016522,9.34194857 L17.0322522,9.34194857 C16.8089478,13.38552 13.5123391,16.6355486 9.41016522,16.8554057 M0.90033913,9.34194857 L8.52268696,9.34194857 L8.52268696,16.8554057 C4.42051304,16.6355486 1.12338261,13.38552 0.90033913,9.34194857 M8.52268696,0.953691429 L8.52268696,8.46714857 L0.90033913,8.46714857 C1.12338261,4.42357714 4.42051304,1.17380571 8.52268696,0.953691429 M17.0322522,8.46714857 L9.41016522,8.46714857 L9.41016522,0.953691429 C13.5123391,1.17380571 16.8089478,4.42357714 17.0322522,8.46714857 M8.96642609,0.0662914286 C4.02242609,0.0662914286 7.82608696e-05,4.03117714 7.82608696e-05,8.90454857 C7.82608696e-05,13.77792 4.02242609,17.7428057 8.96642609,17.7428057 C13.9101652,17.7428057 17.932513,13.77792 17.932513,8.90454857 C17.932513,4.03117714 13.9101652,0.0662914286 8.96642609,0.0662914286" id="Fill-1" fill="#FF5A5A" mask="url(#mask-4)"></path>
+                                </g>
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="Clip-5"></g>
+                                <polygon id="Fill-4" fill="#FF5A5A" mask="url(#mask-6)" points="10.7306087 13.0641943 14.3945217 13.0641943 14.3945217 12.1893943 10.7306087 12.1893943"></polygon>
+                                <polygon id="Fill-6" fill="#FF5A5A" mask="url(#mask-6)" points="3.55643478 13.0641943 7.22008696 13.0641943 7.22008696 12.1893943 3.55643478 12.1893943"></polygon>
+                                <polygon id="Fill-7" fill="#FF5A5A" mask="url(#mask-6)" points="4.94454783 7.7409 5.83202609 7.7409 5.83202609 6.37264286 7.22011304 6.37264286 7.22011304 5.49758571 5.83202609 5.49758571 5.83202609 4.12932857 4.94454783 4.12932857 4.94454783 5.49758571 3.55646087 5.49758571 3.55646087 6.37264286 4.94454783 6.37264286"></polygon>
+                                <polygon id="Fill-8" fill="#FF5A5A" mask="url(#mask-6)" points="10.9534696 6.90243429 11.5806 7.52112 12.562513 6.55349143 13.5444261 7.52112 14.1715565 6.90243429 13.1899043 5.93480571 14.1715565 4.96769143 13.5444261 4.34874857 12.562513 5.31663429 11.5806 4.34874857 10.9534696 4.96769143 11.9351217 5.93480571"></polygon>
+                                <path d="M12.562513,11.84238 C12.9052957,11.84238 13.1836435,11.5685229 13.1836435,11.2301229 C13.1836435,10.8922371 12.9052957,10.6178657 12.562513,10.6178657 C12.2197304,10.6178657 11.9413826,10.8922371 11.9413826,11.2301229 C11.9413826,11.5685229 12.2197304,11.84238 12.562513,11.84238" id="Fill-9" fill="#FF5A5A" mask="url(#mask-6)"></path>
+                                <path d="M12.562513,13.4113629 C12.2197304,13.4113629 11.9413826,13.68522 11.9413826,14.02362 C11.9413826,14.3615057 12.2197304,14.6358771 12.562513,14.6358771 C12.9052957,14.6358771 13.1836435,14.3615057 13.1836435,14.02362 C13.1836435,13.68522 12.9052957,13.4113629 12.562513,13.4113629" id="Fill-10" fill="#FF5A5A" mask="url(#mask-6)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

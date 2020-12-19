@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>003AF850-DCAE-402B-9831-63ED2091CE53</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="18" y="17" width="442" height="493" rx="5"></rect>
+        <filter x="-1.6%" y="-1.0%" width="103.2%" height="102.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="tcaster-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard---1366x768-(W960px---12-Col.grid)-Copy-50" transform="translate(-420.000000, -39.000000)">
+            <rect id="Rectangle-4" fill="#F3F3F3" opacity="0.2" x="-2" y="0" width="1368" height="775"></rect>
+            <g id="Rectangle-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M426.255313,40.0000739 C425.807577,40.0000739 425.360689,40.0561558 424.930048,40.1707151 C423.477344,40.5572292 422.218483,41.5934761 421.562068,42.9426825 C420.753487,44.6059757 420.819891,46.7607605 421.744609,48.8550952 C422.600521,50.7935842 424.086146,52.7326369 426.16051,54.6191304 C427.126908,55.4975588 428.125378,56.3039827 429.128651,57.0158564 C429.195762,57.0634837 429.316279,57.1533838 429.473955,57.2713249 C429.95348,57.6302208 431.300644,58.6382859 432.000011,59 C432.699378,58.6382859 434.046542,57.6302208 434.525926,57.2713249 C434.683743,57.1533838 434.80426,57.0634837 434.871229,57.0158564 C435.874644,56.3039827 436.873114,55.4975588 437.83937,54.6191304 C439.913735,52.7326369 441.3995,50.7935842 442.255412,48.8550952 C443.180131,46.7607605 443.246535,44.6059757 442.437813,42.9426825 C441.78168,41.5934761 440.522678,40.5572292 439.069973,40.1707151 C437.692009,39.8040691 436.147892,40.0358649 434.936927,40.7904341 C434.731073,40.9344434 433.089893,42.264627 432.489002,42.8138914 L432.000011,43.2609966 L431.510878,42.8138914 C430.910129,42.264627 429.268948,40.9344434 429.063094,40.7902932 C428.230777,40.271747 427.240785,40.0000739 426.255313,40.0000739 Z" id="Page-1" stroke="#FF5855" stroke-width="1.28" fill="#FF5855"></path>
+            <g id="detail-copy" transform="translate(30.000000, 30.000000)" fill="#FF5A5A" font-family="Prompt-SemiBold, Prompt" font-size="24" font-weight="500" line-spacing="16">
+                <g id="Group" transform="translate(110.000000, 11.000000)">
+                    <text id="คณะวิศวกรรมศาสตร์">
+                        <tspan x="0.623978202" y="26">คณะวิศวกรรมศาสตร์</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
